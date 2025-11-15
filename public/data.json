@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál de los siguientes tiene como principal objetivo el prevenir accidentes de tránsito?",
+    "respuestas": [
+      "Las señales informativas de tránsito.",
+      "La seguridad vial.",
+      "La accidentología vial."
+    ],
+    "Numero de la respuesta correcta": 2
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cuáles son los tres tipos de señalamiento luminoso?",
+    "respuestas": [
+      "Semáforo vehicular, semáforo peatonal, señalamiento informativo.",
+      "Semáforo vehicular, semáforo peatonal, señal luminosa informativa.",
+      "Semáforo vehicular, semáforo peatonal, capta luces."
+    ],
+    "Numero de la respuesta correcta": 3
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué es lo que produce lluvia ácida, así como enfisemas pulmonares o bronquitis?",
+    "respuestas": [
+      "El descuido de la salud personal de los conductores.",
+      "No respetar la ley de tránsito.",
+      "La contaminación."
+    ],
+    "Numero de la respuesta correcta": 3
+  },
+  {
+    "id": 4,
+    "pregunta": "Los conceptos de factor humano, factor vehículo, y factor vía y entorno componen lo que se conoce como...",
+    "respuestas": [
+      "Circulación.",
+      "Trilogía vial.",
+      "Ley de Tránsito."
+    ],
+    "Numero de la respuesta correcta": 2
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué tres características tendrá el conductor que maneje a la defensiva?",
+    "respuestas": [
+      "Saber esperar, suponer y actuar.",
+      "Esperar todo, imaginar todo y suponer todo.",
+      "Actuar, imaginar y saber esperar."
+    ],
+    "Numero de la respuesta correcta": 3
+  },
+  {
+    "id": 6,
+    "pregunta": "Si el conductor se sintiera alterado por alguna condición mental, ¿qué deberá hacer?",
+    "respuestas": [
+      "Dejar a otra persona maneje el automóvil.",
+      "Detenerse en la farmacia y comprar relajantes musculares.",
+      "Continuar el recorrido sin importar esta condición."
+    ],
+    "Numero de la respuesta correcta": 1
+  }
+]
