@@ -11,10 +11,11 @@ export interface Pregunta {
 
     // El número que indica la posición de la respuesta correcta 
     // (normalmente 1, 2, 3, etc., dependiendo de cómo se indexen las respuestas).
-    respuestaCorrecta: number; 
+    Ncorrecta: number; 
 
     usuarioRespuestaSelecionada?: number; 
     isCorrectRespuestaSeleccionada?: boolean; 
+    referencia: string
 
 
 }

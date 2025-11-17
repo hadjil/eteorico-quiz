@@ -5,27 +5,64 @@ interface State{
     preguntas: Pregunta[]
     preguntaActual: number
     fetchQuestions:(limit:number)=> Promise<void>
+    selectAnswer: (questionId: number, answerIndex: number) => void
+    goNextQuestion: () => void
+    goPreviousQuestion: () => void
+    
     
 }
 
 export const useQuestionStore = create<State>((set, get)=>({
     preguntas: [],
     preguntaActual: 0,
-    fetchQuestions: async (limit: number) => {  
-        set({
-            preguntas:[
-                {
-                    id: 1,
-                    pregunta: '¿Cuál de los siguientes tiene como principal objetivo el prevenir accidentes de tránsito?',
-                    respuestas: [
-                        'Las señales informativas de tránsito.',
-                        'La seguridad vial.',
-                        'La accidentología vial.'
-                    ],
-                    respuestaCorrecta: 2
-                }
-            ]
-        })
+    fetchQuestions: async (limit: number) => { 
+        const res=await fetch('http://localhost:5173/data.json')
+        const json=await res.json()
+     
+
+        const PreguntasDesordenadas= json.sort(()=>Math.random()-0.5).slice(0,limit)
+        set({preguntas:PreguntasDesordenadas})
+    
+      
+    },
+    //Utilizando Structured clone para Clonar objetos
+    selectAnswer: (questionId:number, answerIndex:number)=>{
+        const {preguntas}=get()
+        const newPreguntas=structuredClone(preguntas)
+        const QuestionIndex= newPreguntas.findIndex(q => q.id=== questionId)
+        const questionInfo= newPreguntas[QuestionIndex]
+        const isCorrectUserAnswer= questionInfo.Ncorrecta === answerIndex
+        newPreguntas[QuestionIndex]={
+            ...questionInfo,
+            isCorrectRespuestaSeleccionada:isCorrectUserAnswer,
+            usuarioRespuestaSelecionada: answerIndex
+        }
+        set({preguntas:newPreguntas})
+    },
+
+    goNextQuestion:()=>{
+        const {preguntaActual,preguntas}=get()
+        const nextQuestion=preguntaActual+1
+        if(nextQuestion<preguntas.length){
+            set({preguntaActual:nextQuestion})
+        }
+        
+        },
+
+
+        goPreviousQuestion:()=>{
+        const {preguntaActual}=get()
+        const previousQuestion=preguntaActual-1
+
+        if(previousQuestion>=0){
+            set({preguntaActual:previousQuestion})
+        }
+        
+
+        
     }
+
+
+
 
 }))

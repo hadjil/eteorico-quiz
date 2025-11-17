@@ -12,3 +12,5 @@ Quiz de Preguntas del Manual del Conductor Cosevi CR; aprendizaje de Zustand sig
 ### npm install @mui/icons-material
 
 ### npm install zustand -E
+
+### npm install canvas-confetti -E
