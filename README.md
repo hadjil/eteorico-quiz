@@ -1,4 +1,4 @@
-# teorico-quiz
+# e-teorico-quiz
 Quiz de Preguntas del Manual del Conductor Cosevi CR; aprendizaje de Zustand siguiendo la clase de Midudev
 
 
@@ -14,3 +14,7 @@ Quiz de Preguntas del Manual del Conductor Cosevi CR; aprendizaje de Zustand sig
 ### npm install zustand -E
 
 ### npm install canvas-confetti -E
+
+
+<img width="706" height="599" alt="image" src="https://github.com/user-attachments/assets/477444c3-95ea-46e2-8072-7d6f665abf54" />
+<img width="710" height="598" alt="image" src="https://github.com/user-attachments/assets/eb66bcd6-a3db-48b0-86d3-2066c4c2b80a" />
