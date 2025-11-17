@@ -5,6 +5,7 @@ import { Start } from './Start'
 import { useQuestionStore } from './store/preguntas'
 import { Game } from './Game'
 
+
 function App() {
   const preguntas = useQuestionStore((state) => state.preguntas)
 
@@ -23,7 +24,10 @@ function App() {
       
 
         {preguntas.length === 0 && <Start />}
-        {preguntas.length > 0 && <Game />}
+        {preguntas.length > 0 && <>
+          <Game />
+        
+        </>}
       </Container>
     </main>
  

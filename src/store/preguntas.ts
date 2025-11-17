@@ -1,18 +1,27 @@
 import { create } from "zustand";
 import { type Pregunta } from '../types'
 
+
 interface State{
     preguntas: Pregunta[]
     preguntaActual: number
+  
     fetchQuestions:(limit:number)=> Promise<void>
     selectAnswer: (questionId: number, answerIndex: number) => void
+    
     goNextQuestion: () => void
     goPreviousQuestion: () => void
+    reset: () => void
+    
     
     
 }
 
+
+
+
 export const useQuestionStore = create<State>((set, get)=>({
+    
     preguntas: [],
     preguntaActual: 0,
     fetchQuestions: async (limit: number) => { 
@@ -48,6 +57,10 @@ export const useQuestionStore = create<State>((set, get)=>({
         }
         
         },
+        
+    reset:()=>{
+            set({preguntaActual:0,preguntas:[]})
+        },
 
 
         goPreviousQuestion:()=>{
@@ -60,9 +73,4 @@ export const useQuestionStore = create<State>((set, get)=>({
         
 
         
-    }
-
-
-
-
-}))
+    }}))

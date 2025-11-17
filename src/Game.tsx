@@ -4,10 +4,11 @@ import { useQuestionStore } from "./store/preguntas"
 import{ type Pregunta as QuestionType} from './types'
 import confetti from 'canvas-confetti'
 import {  ArrowBackIosNew, ArrowForwardIos } from "@mui/icons-material"
+import { Footer } from "./Footer"
 const Question =({info}:{info:QuestionType})=>{
 
    
-
+   
     const selectAnswer = useQuestionStore((state) => state.selectAnswer)
     
      const createHandleClick = (answerIndex:number) => () => {
@@ -82,7 +83,9 @@ const Question =({info}:{info:QuestionType})=>{
 export const Game=()=>{
     const preguntas = useQuestionStore((state) => state.preguntas)
     const currentQuestion = useQuestionStore((state) => state.preguntaActual)
+
     const questionInfo= preguntas[currentQuestion]
+    const referencia=preguntas[currentQuestion].referencia
     const goNextQuestion = useQuestionStore((state) => state.goNextQuestion)
     const goPreviousQuestion = useQuestionStore((state) => state.goPreviousQuestion)
 
@@ -94,11 +97,16 @@ export const Game=()=>{
                 <ArrowBackIosNew/>
             </IconButton>
 
+            {currentQuestion+1}/{preguntas.length}
+
              <IconButton onClick={goNextQuestion} disabled={currentQuestion >= preguntas.length - 1}>
                 <ArrowForwardIos/>
             </IconButton>
          </Stack>
             <Question info= {questionInfo}/>
+            <Footer />
+              {referencia}
+          
          </>
 
     )
