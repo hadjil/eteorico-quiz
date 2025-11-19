@@ -52,7 +52,7 @@ const Question =({info}:{info:QuestionType})=>{
 
     return(
         <Card variant="outlined">
-            <Typography variant="h5" >
+            <Typography variant="h6" >
                 {info.pregunta}
             </Typography>
 

@@ -16,7 +16,7 @@ function App() {
 
     
           <TrafficLightIcon />
-         <Typography variant="h2" component="h2">
+         <Typography variant="h3" component="h3">
            e-Teórico Quizz
          </Typography>
         </Stack>

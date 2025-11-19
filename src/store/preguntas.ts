@@ -25,7 +25,7 @@ export const useQuestionStore = create<State>((set, get)=>({
     preguntas: [],
     preguntaActual: 0,
     fetchQuestions: async (limit: number) => { 
-        const res=await fetch('http://localhost:5173/data.json')
+        const res=await fetch('/data.json')
         const json=await res.json()
      
 
