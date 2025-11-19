@@ -3,7 +3,7 @@ Quiz de Preguntas del Manual del Conductor Cosevi CR; aprendizaje de Zustand sig
 
 
 ### npm install
-#### npm create vite@latest
+### npm create vite@latest
 
 ### npm install @mui/material @emotion/react @emotion/styled
 
@@ -14,6 +14,10 @@ Quiz de Preguntas del Manual del Conductor Cosevi CR; aprendizaje de Zustand sig
 ### npm install zustand -E
 
 ### npm install canvas-confetti -E
+
+### npm install gh-pages --save-dev
+
+### npm run deploy
 
 
 <img width="706" height="599" alt="image" src="https://github.com/user-attachments/assets/477444c3-95ea-46e2-8072-7d6f665abf54" />
