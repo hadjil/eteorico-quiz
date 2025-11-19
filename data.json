@@ -1,0 +1,167 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Cuál de los siguientes tiene como principal objetivo el prevenir accidentes de tránsito?",
+    "respuestas": [
+      "Las señales informativas de tránsito.",
+      "La seguridad vial.",
+      "La accidentología vial."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Manual del Conductor, Capítulo 1: Marco de la Seguridad Vial, Sección 1.1."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cuáles son los tres tipos de señalamiento luminoso?",
+    "respuestas": [
+      "Semáforo vehicular, semáforo peatonal, señalamiento informativo.",
+      "Semáforo vehicular, semáforo peatonal, señal luminosa informativa.",
+      "Semáforo vehicular, semáforo peatonal, capta luces."
+    ],
+    "Ncorrecta": 2,
+    "referencia": "Manual del Conductor, Capítulo 3: Señalamiento Vial, Sección 3.4 (Señales Luminosas)."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Qué es lo que produce lluvia ácida, así como enfisemas pulmonares o bronquitis?",
+    "respuestas": [
+      "El descuido de la salud personal de los conductores.",
+      "No respetar la ley de tránsito.",
+      "La contaminación."
+    ],
+    "Ncorrecta": 2,
+    "referencia": "Manual del Conductor, Capítulo 7: Conducción Eficiente y Responsabilidad Ambiental, Sección 7.1."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Los conceptos de factor humano, factor vehículo, y factor vía y entorno componen lo que se conoce como...?",
+    "respuestas": [
+      "Circulación.",
+      "Trilogía vial.",
+      "Ley de Tránsito."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Manual del Conductor, Capítulo 1: Marco de la Seguridad Vial, Sección 1.1.2."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué tres características tendrá el conductor que maneje a la defensiva?",
+    "respuestas": [
+      "Saber esperar, suponer y actuar.",
+      "Esperar todo, imaginar todo y suponer todo.",
+      "Actuar, imaginar y saber esperar."
+    ],
+    "Ncorrecta": 2,
+    "referencia": "¿Manual del Conductor, Capítulo 2: Factor Humano, Sección 2.3 (Conducción Preventiva)?."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Si el conductor se sintiera alterado por alguna condición mental (estrés, cólera, preocupación), ¿qué deberá hacer?",
+    "respuestas": [
+      "Dejar que otra persona maneje el automóvil.",
+      "Detenerse en la farmacia y comprar relajantes musculares.",
+      "Continuar el recorrido sin importar esta condición."
+    ],
+    "Ncorrecta": 0,
+    "referencia": "Manual del Conductor, Capítulo 2: Factor Humano, Sección 2.1.2 (Factores que Influyen)."
+  },
+  {
+    "id": 7,
+    "pregunta": "¿Cuál es la distancia mínima que se debe guardar al adelantar a un ciclista o peatón?",
+    "respuestas": [
+      "2 metros.",
+      "1.5 metros.",
+      "3 metros."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Ley N.º 9078, Título VI, Artículo 102, inciso b), y Manual del Conductor, Capítulo 6: Normas de Circulación."
+  },
+  {
+    "id": 8,
+    "pregunta": "¿Qué indican las señales de tránsito de forma **circular** con borde rojo?",
+    "respuestas": [
+      "Prevención de peligros.",
+      "Información general.",
+      "Prohibición o restricción."
+    ],
+    "Ncorrecta": 2,
+    "referencia": "Manual del Conductor, Capítulo 3: Señalamiento Vial, Sección 3.3.1 (Señales Reglamentarias)."
+  },
+  {
+    "id": 9,
+    "pregunta": "¿Según la Ley de Tránsito, ¿cuál es la sanción por conducir bajo los efectos del alcohol con una concentración superior a 0,75 gramos de alcohol por cada 100 mililitros de sangre?",
+    "respuestas": [
+      "Suspensión de licencia por tres meses.",
+      "Multa y acumulación de puntos en la licencia.",
+      "Prisión de seis meses a tres años."
+    ],
+    "Ncorrecta": 2,
+    "referencia": "Ley N.º 9078, Título IX, Artículo 143, inciso c), y Código Penal (Delitos Contra la Vida o la Integridad Corporal)."
+  },
+  {
+    "id": 10,
+    "pregunta": "¿Qué sistema del vehículo se encarga de reducir la velocidad del automotor y detenerlo de forma eficiente?",
+    "respuestas": [
+      "Sistema de dirección.",
+      "Sistema de suspensión.",
+      "Sistema de frenos."
+    ],
+    "Ncorrecta": 2,
+    "referencia": "Manual del Conductor, Capítulo 4: Factor Vehículo, Sección 4.3.3."
+  },
+  {
+    "id": 11,
+    "pregunta": "¿Si un semáforo tiene la luz amarilla fija encendida, el conductor debe?",
+    "respuestas": [
+      "Continuar la marcha con precaución.",
+      "Detener el vehículo si la luz roja está próxima a encenderse.",
+      "Aumentar la velocidad para pasar la intersección."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Manual del Conductor, Capítulo 6: Normas de Circulación, Sección 6.2.2 (Señales Luminosas), y Ley N.º 9078, Artículo 107."
+  },
+  {
+    "id": 12,
+    "pregunta": "¿El factor vía y entorno se refiere a?",
+    "respuestas": [
+      "Las condiciones del vehículo y la salud mental del conductor.",
+      "La infraestructura vial, el ambiente (clima) y las condiciones de circulación.",
+      "Las leyes de tránsito y la fiscalización policial."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Manual del Conductor, Capítulo 5: Factor Vía y Entorno, Sección 5.1."
+  },
+  {
+    "id": 13,
+    "pregunta": "¿En qué circunstancias está permitido realizar un viraje en 'U'?",
+    "respuestas": [
+      "Siempre que no exista un vehículo detrás.",
+      "Donde el señalamiento vial lo permita y no obstaculice el tránsito.",
+      "En cualquier lugar que posea línea discontinua."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Ley N.º 9078, Título VI, Artículo 100, inciso d), y Manual del Conductor, Capítulo 6: Normas de Circulación."
+  },
+  {
+    "id": 14,
+    "pregunta": "La velocidad máxima permitida en las cercanías de centros educativos, hospitales o clínicas, cuando estén en funcionamiento, es de:",
+    "respuestas": [
+      "40 km/h.",
+      "25 km/h.",
+      "50 km/h."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Ley N.º 9078, Título VI, Artículo 98, inciso b) 1, y Manual del Conductor, Capítulo 6: Normas de Circulación."
+  },
+  {
+    "id": 15,
+    "pregunta": "¿Cuál es uno de los principales objetivos del Seguro Obligatorio Automotor (SOA)?",
+    "respuestas": [
+      "Cubrir los daños al vehículo propio del conductor responsable.",
+      "Garantizar la atención médico-quirúrgica y la indemnización de las víctimas de accidentes de tránsito.",
+      "Cubrir únicamente los gastos de la grúa."
+    ],
+    "Ncorrecta": 1,
+    "referencia": "Ley N.º 9078, Título III: De la Responsabilidad Civil y Seguros, Artículo 39."
+  }
+]
