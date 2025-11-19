@@ -1,9 +1,9 @@
 {
   "name": "eteorico-quiz",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "homepage": ".",
-
+  
   
   "type": "module",
   "scripts": {
