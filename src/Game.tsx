@@ -1,7 +1,7 @@
 //import{IconButton ,Stack} from '@mui/material'
 import { Card, IconButton, List, ListItem, ListItemButton, ListItemText, Stack, Typography } from "@mui/material"
 import { useQuestionStore } from "./store/preguntas"
-import{ type Pregunta as QuestionType} from './types'
+import{ type Pregunta as QuestionType} from './types.ts'
 import confetti from 'canvas-confetti'
 import {  ArrowBackIosNew, ArrowForwardIos } from "@mui/icons-material"
 import { Footer } from "./Footer"

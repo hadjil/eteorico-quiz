@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { type Pregunta } from '../types'
+import { type Pregunta } from '../types.ts'
 
 
 interface State{
